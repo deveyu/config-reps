@@ -1,11 +1,11 @@
 zipkin:   
   collector:
     rabbitmq:
-      addresses: panda-rabbitmq
+      addresses: 119.45.104.69
       port: 5672
-      username: 
-      password: 
-      virtual-host: /
+      username: guest
+      password: guest
+      virtual-host: /ydc
       queue: zipkin
   storage:
     type: mysql

@@ -19,7 +19,7 @@ spring:
   redis:
     host: 119.45.104.69
     port: 6379
-    password: 
+    password:
     timeout: 10000
     lettuce:
       pool:
@@ -42,7 +42,7 @@ redis:
 ribbon:
   eager-load:
     enabled: true
-    clients: panda-auth,panda-user-service
+    clients: panda-auth,panda-user-service,panda-item-service
   Httpclient:
     enabled: true
   OkHttp:

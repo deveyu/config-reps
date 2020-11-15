@@ -6,6 +6,10 @@ spring:
   sleuth:
     sampler:
       percentage: 1
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: localhost:9300
 
 
 mybatis-plus:
@@ -47,8 +51,4 @@ mybatis-plus:
 #    com.yukong.panda.user.mapper: debug
 #    com.yukong.panda.common.base.mapper: debug
 
-spring:
-  data:
-    elasticsearch:
-      cluster-name: elasticsearch
-      cluster-nodes: 119.45.104.69:9300
+

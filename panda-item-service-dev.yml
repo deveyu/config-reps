@@ -52,5 +52,6 @@ ftp:
   port: 21
   user: root
   password: root
+  charset: utf-8
 
 

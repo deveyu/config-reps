@@ -41,11 +41,10 @@ mybatis-plus:
     jdbc-type-for-null: 'null'
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 # Logger Config
-#logging:
-#  level:
-#    com.yukong.panda.user.mapper: debug
-#    com.yukong.panda.common.base.mapper: debug
-
+logging:
+  level:
+    com.ydc.basepack.mapper: debug
+    com.yukong.panda.common.base.mapper: debug
 
 ftp:
   host: 119.45.104.69

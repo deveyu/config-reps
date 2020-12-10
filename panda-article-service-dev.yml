@@ -84,6 +84,6 @@ write:
  appid: 174
  appSecret: 4be0fc61aa07158bd072f857353a6432
  platform: 1
- roleId:
+ roleId: 61
  sign_type: MD5
  login_url: https://zs.giiso.com/oauth2/token/login.do

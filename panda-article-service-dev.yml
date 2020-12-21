@@ -72,7 +72,7 @@ upload:
     host: 119.45.104.69
     port: 21
     user: root
-    password: root
+    password:
     charset: utf-8
 modify:
   sync-url:
